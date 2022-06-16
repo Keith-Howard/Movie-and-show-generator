@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(200, 199, 197);
+}
+
+.container {
+    position: relative;
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: purple;
+    text-align: center;
+    outline: 10px solid chartreuse;
+}
+
+h1 {
+    font-family: creepster;
+    font-size: 75px;
+    color: chartreuse;
+    -webkit-text-stroke: 1px black;
+}
+
+.batsLeft {
+    width: 175px;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+.batsRight {
+    width: 175px;
+    position: absolute;
+    left: 76%;
+    top: 20%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.output {
+    width: 520px;
+    height: 75px;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: de-walpergens-pica;
+    background-color: orange;
+}
+
+button {
+    width: 150px;
+    height: 65px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: chartreuse;
+    font-family: de-walpergens-pica;
+    margin-top: 60px;
+}
+
+.popcorn {
+    width: 185px;
+    position: absolute;
+    left: 2%;
+    top: 61%;
+}
+
+.tv {
+    width: 300px;
+    position: absolute;
+    left: 65%;
+    top: 53%;
+}
